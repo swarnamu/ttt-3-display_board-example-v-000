@@ -3,5 +3,5 @@ def display_board
   space = "   "
   pipe = "|"
   dash = "-----------"
-  puts #space#pipe#space#pipe#space
+  puts #space#pipe#space#pipe#space"\n"#dash"\n"#space#pipe#space#pipe#space"\n"#dash"\n"#space#pipe#space#pipe#space
 end
