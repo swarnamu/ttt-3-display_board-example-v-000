@@ -2,4 +2,4 @@
 def display_board
   row = "   |   |   "
 end
-row
+display_board
