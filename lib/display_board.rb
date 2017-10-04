@@ -3,6 +3,5 @@ def display_board
   space = "   "
   pipe = "|"
   dash = "-----------"
-  board = #{space}#{pipe}#{space}#{pipe}#{space}"\n"#{dash}"\n"#{space}#{pipe}#{space}#{pipe}#{space}"\n"#{dash}"\n"#{space}#{pipe}#{space}#{pipe}#{space}
-  return board
+  board = space + pipe + space + pipe + space+ "\n" + dash + "\n"+ space + pipe + space + pipe + space + "\n" + dash +"\n" + space + pipe + space + pipe + space
 end
